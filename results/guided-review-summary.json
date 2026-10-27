@@ -1,0 +1,54 @@
+{
+  "interpretation": "Exploratory re-rating after examining disagreements; same responses, not independent replication.",
+  "protocol_sha256": "e28a73deb12a69762f130af3ac9373adc4f4504776c8c75fce025acb1dceb1d8",
+  "conditions": {
+    "baseline": {
+      "total": 64,
+      "guided_qwen": 7,
+      "original_qwen": 5,
+      "human": 9
+    },
+    "candidate:-1": {
+      "total": 64,
+      "guided_qwen": 6,
+      "original_qwen": 4,
+      "human": 4
+    },
+    "candidate:1": {
+      "total": 64,
+      "guided_qwen": 42,
+      "original_qwen": 36,
+      "human": 43
+    },
+    "random-0:-1": {
+      "total": 64,
+      "guided_qwen": 11,
+      "original_qwen": 9,
+      "human": 15
+    },
+    "random-0:1": {
+      "total": 64,
+      "guided_qwen": 4,
+      "original_qwen": 3,
+      "human": 9
+    },
+    "random-1:-1": {
+      "total": 64,
+      "guided_qwen": 10,
+      "original_qwen": 10,
+      "human": 14
+    },
+    "random-1:1": {
+      "total": 64,
+      "guided_qwen": 5,
+      "original_qwen": 4,
+      "human": 6
+    }
+  },
+  "agreement_with_human": {
+    "total": 448,
+    "binary_matches": 417,
+    "three_category_matches": 259
+  },
+  "qwen_elapsed_seconds": 4460.289283752441
+}

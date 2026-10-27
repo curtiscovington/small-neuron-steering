@@ -1,0 +1,182 @@
+{
+  "status": "passes this reviewed object/creature bank",
+  "reviewed_pass": true,
+  "quality": 64,
+  "comparisons": [
+    {
+      "condition": "baseline",
+      "wins": 35,
+      "losses": 1,
+      "ties": 28,
+      "advantage": 0.53125,
+      "p_raw": 5.384208634495735e-10,
+      "p_adjusted": 2.153683453798294e-09
+    },
+    {
+      "condition": "random-0:1",
+      "wins": 35,
+      "losses": 1,
+      "ties": 28,
+      "advantage": 0.53125,
+      "p_raw": 5.384208634495735e-10,
+      "p_adjusted": 2.153683453798294e-09
+    },
+    {
+      "condition": "random-0:-1",
+      "wins": 29,
+      "losses": 1,
+      "ties": 34,
+      "advantage": 0.4375,
+      "p_raw": 2.8870999813079834e-08,
+      "p_adjusted": 2.8870999813079834e-08
+    },
+    {
+      "condition": "random-1:1",
+      "wins": 38,
+      "losses": 1,
+      "ties": 25,
+      "advantage": 0.578125,
+      "p_raw": 7.275957614183426e-11,
+      "p_adjusted": 3.637978807091713e-10
+    },
+    {
+      "condition": "random-1:-1",
+      "wins": 29,
+      "losses": 0,
+      "ties": 35,
+      "advantage": 0.453125,
+      "p_raw": 1.862645149230957e-09,
+      "p_adjusted": 3.725290298461914e-09
+    }
+  ],
+  "rates": [
+    {
+      "condition": "baseline",
+      "family": "all",
+      "clearly_small": 9,
+      "n": 64
+    },
+    {
+      "condition": "baseline",
+      "family": "creature",
+      "clearly_small": 1,
+      "n": 32
+    },
+    {
+      "condition": "baseline",
+      "family": "object",
+      "clearly_small": 8,
+      "n": 32
+    },
+    {
+      "condition": "candidate:1",
+      "family": "all",
+      "clearly_small": 43,
+      "n": 64
+    },
+    {
+      "condition": "candidate:1",
+      "family": "creature",
+      "clearly_small": 20,
+      "n": 32
+    },
+    {
+      "condition": "candidate:1",
+      "family": "object",
+      "clearly_small": 23,
+      "n": 32
+    },
+    {
+      "condition": "candidate:-1",
+      "family": "all",
+      "clearly_small": 4,
+      "n": 64
+    },
+    {
+      "condition": "candidate:-1",
+      "family": "creature",
+      "clearly_small": 1,
+      "n": 32
+    },
+    {
+      "condition": "candidate:-1",
+      "family": "object",
+      "clearly_small": 3,
+      "n": 32
+    },
+    {
+      "condition": "random-0:1",
+      "family": "all",
+      "clearly_small": 9,
+      "n": 64
+    },
+    {
+      "condition": "random-0:1",
+      "family": "creature",
+      "clearly_small": 1,
+      "n": 32
+    },
+    {
+      "condition": "random-0:1",
+      "family": "object",
+      "clearly_small": 8,
+      "n": 32
+    },
+    {
+      "condition": "random-0:-1",
+      "family": "all",
+      "clearly_small": 15,
+      "n": 64
+    },
+    {
+      "condition": "random-0:-1",
+      "family": "creature",
+      "clearly_small": 6,
+      "n": 32
+    },
+    {
+      "condition": "random-0:-1",
+      "family": "object",
+      "clearly_small": 9,
+      "n": 32
+    },
+    {
+      "condition": "random-1:1",
+      "family": "all",
+      "clearly_small": 6,
+      "n": 64
+    },
+    {
+      "condition": "random-1:1",
+      "family": "creature",
+      "clearly_small": 0,
+      "n": 32
+    },
+    {
+      "condition": "random-1:1",
+      "family": "object",
+      "clearly_small": 6,
+      "n": 32
+    },
+    {
+      "condition": "random-1:-1",
+      "family": "all",
+      "clearly_small": 14,
+      "n": 64
+    },
+    {
+      "condition": "random-1:-1",
+      "family": "creature",
+      "clearly_small": 4,
+      "n": 32
+    },
+    {
+      "condition": "random-1:-1",
+      "family": "object",
+      "clearly_small": 10,
+      "n": 32
+    }
+  ],
+  "rated": 448,
+  "required": 448
+}

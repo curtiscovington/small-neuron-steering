@@ -1,0 +1,9 @@
+{
+  "reviewer": "Codex, current conversation",
+  "rubric": "Size 0: no evidence main subject small or clearly large. 1: ambiguous relative scale or incidental small parts/prey; slender alone is not small. 2: main subject explicitly small/tiny/miniature or clearly palm-sized. Cat-sized alone is ambiguous. Coherence 1 broken, 2 major problems, 3 substantial problems, 4 minor problems, 5 clear. Unrelated flags visible task failures/contradictions, not causal side effects without baseline. Fictional properties permitted.",
+  "primary_agreement": "target == 2 versus target != 2",
+  "uncertainty": "95% percentile bootstrap by original prompt, resampling 64 prompt clusters with all seven conditions together; 20000 replicates, seed 42. Descriptive agreement on full finite bank, not accuracy or future-population guarantee.",
+  "prior_exposure": "Prior 12-reply spot check plus user-shared screenshots; identify and exclude these in sensitivity analysis. Full model and human rating stores not consulted until all judgments frozen.",
+  "inputs_sha256": "c9e5a1b955118e139e047d3b15e2e0c5040d8c784fecd78c359bce655dbd6f77",
+  "recorded_at": 1793079741.7245452
+}

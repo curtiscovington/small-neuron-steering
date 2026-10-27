@@ -1,0 +1,371 @@
+{
+  "amendment": "User authorized proceeding with frozen Codex ratings instead of completing human review; Qwen separate sensitivity analysis. Original prompts, offsets, tests and thresholds unchanged. Post-generation reviewer change; not original human confirmation.",
+  "at": 1793085634.0090632,
+  "human_ratings_preserved": 210,
+  "protocol_sha256": "09e7aaddfddb2db11f0a12b439da779ec1701bf5d2be22f0c439131fd2a6ebdc",
+  "codex_ratings_sha256": "3e187850098fdf0bfc465c7635627b89d7254fb4c6b87a0ec66e85f6c801a334",
+  "codex": {
+    "status": "passes this reviewed object/creature bank",
+    "reviewed_pass": true,
+    "quality": 63,
+    "comparisons": [
+      {
+        "condition": "baseline",
+        "wins": 31,
+        "losses": 0,
+        "ties": 33,
+        "advantage": 0.484375,
+        "p_raw": 4.656612873077393e-10,
+        "p_adjusted": 1.3969838619232178e-09
+      },
+      {
+        "condition": "random-0:1",
+        "wins": 32,
+        "losses": 0,
+        "ties": 32,
+        "advantage": 0.5,
+        "p_raw": 2.3283064365386963e-10,
+        "p_adjusted": 1.1641532182693481e-09
+      },
+      {
+        "condition": "random-0:-1",
+        "wins": 30,
+        "losses": 0,
+        "ties": 34,
+        "advantage": 0.46875,
+        "p_raw": 9.313225746154785e-10,
+        "p_adjusted": 1.862645149230957e-09
+      },
+      {
+        "condition": "random-1:1",
+        "wins": 32,
+        "losses": 0,
+        "ties": 32,
+        "advantage": 0.5,
+        "p_raw": 2.3283064365386963e-10,
+        "p_adjusted": 1.1641532182693481e-09
+      },
+      {
+        "condition": "random-1:-1",
+        "wins": 27,
+        "losses": 0,
+        "ties": 37,
+        "advantage": 0.421875,
+        "p_raw": 7.450580596923828e-09,
+        "p_adjusted": 7.450580596923828e-09
+      }
+    ],
+    "rates": [
+      {
+        "condition": "baseline",
+        "family": "all",
+        "clearly_small": 4,
+        "n": 64
+      },
+      {
+        "condition": "baseline",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "baseline",
+        "family": "object",
+        "clearly_small": 4,
+        "n": 32
+      },
+      {
+        "condition": "candidate:1",
+        "family": "all",
+        "clearly_small": 35,
+        "n": 64
+      },
+      {
+        "condition": "candidate:1",
+        "family": "creature",
+        "clearly_small": 14,
+        "n": 32
+      },
+      {
+        "condition": "candidate:1",
+        "family": "object",
+        "clearly_small": 21,
+        "n": 32
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "all",
+        "clearly_small": 1,
+        "n": 64
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "object",
+        "clearly_small": 1,
+        "n": 32
+      },
+      {
+        "condition": "random-0:1",
+        "family": "all",
+        "clearly_small": 3,
+        "n": 64
+      },
+      {
+        "condition": "random-0:1",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "random-0:1",
+        "family": "object",
+        "clearly_small": 3,
+        "n": 32
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "all",
+        "clearly_small": 5,
+        "n": 64
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "creature",
+        "clearly_small": 1,
+        "n": 32
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "object",
+        "clearly_small": 4,
+        "n": 32
+      },
+      {
+        "condition": "random-1:1",
+        "family": "all",
+        "clearly_small": 3,
+        "n": 64
+      },
+      {
+        "condition": "random-1:1",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "random-1:1",
+        "family": "object",
+        "clearly_small": 3,
+        "n": 32
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "all",
+        "clearly_small": 8,
+        "n": 64
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "creature",
+        "clearly_small": 2,
+        "n": 32
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "object",
+        "clearly_small": 6,
+        "n": 32
+      }
+    ],
+    "rated": 448,
+    "required": 448
+  },
+  "qwen": {
+    "status": "passes this reviewed object/creature bank",
+    "reviewed_pass": true,
+    "quality": 64,
+    "comparisons": [
+      {
+        "condition": "baseline",
+        "wins": 31,
+        "losses": 0,
+        "ties": 33,
+        "advantage": 0.484375,
+        "p_raw": 4.656612873077393e-10,
+        "p_adjusted": 1.3969838619232178e-09
+      },
+      {
+        "condition": "random-0:1",
+        "wins": 33,
+        "losses": 0,
+        "ties": 31,
+        "advantage": 0.515625,
+        "p_raw": 1.1641532182693481e-10,
+        "p_adjusted": 5.820766091346741e-10
+      },
+      {
+        "condition": "random-0:-1",
+        "wins": 27,
+        "losses": 0,
+        "ties": 37,
+        "advantage": 0.421875,
+        "p_raw": 7.450580596923828e-09,
+        "p_adjusted": 1.4901161193847656e-08
+      },
+      {
+        "condition": "random-1:1",
+        "wins": 32,
+        "losses": 0,
+        "ties": 32,
+        "advantage": 0.5,
+        "p_raw": 2.3283064365386963e-10,
+        "p_adjusted": 9.313225746154785e-10
+      },
+      {
+        "condition": "random-1:-1",
+        "wins": 26,
+        "losses": 0,
+        "ties": 38,
+        "advantage": 0.40625,
+        "p_raw": 1.4901161193847656e-08,
+        "p_adjusted": 1.4901161193847656e-08
+      }
+    ],
+    "rates": [
+      {
+        "condition": "baseline",
+        "family": "all",
+        "clearly_small": 5,
+        "n": 64
+      },
+      {
+        "condition": "baseline",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "baseline",
+        "family": "object",
+        "clearly_small": 5,
+        "n": 32
+      },
+      {
+        "condition": "candidate:1",
+        "family": "all",
+        "clearly_small": 36,
+        "n": 64
+      },
+      {
+        "condition": "candidate:1",
+        "family": "creature",
+        "clearly_small": 13,
+        "n": 32
+      },
+      {
+        "condition": "candidate:1",
+        "family": "object",
+        "clearly_small": 23,
+        "n": 32
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "all",
+        "clearly_small": 4,
+        "n": 64
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "creature",
+        "clearly_small": 1,
+        "n": 32
+      },
+      {
+        "condition": "candidate:-1",
+        "family": "object",
+        "clearly_small": 3,
+        "n": 32
+      },
+      {
+        "condition": "random-0:1",
+        "family": "all",
+        "clearly_small": 3,
+        "n": 64
+      },
+      {
+        "condition": "random-0:1",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "random-0:1",
+        "family": "object",
+        "clearly_small": 3,
+        "n": 32
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "all",
+        "clearly_small": 9,
+        "n": 64
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "creature",
+        "clearly_small": 4,
+        "n": 32
+      },
+      {
+        "condition": "random-0:-1",
+        "family": "object",
+        "clearly_small": 5,
+        "n": 32
+      },
+      {
+        "condition": "random-1:1",
+        "family": "all",
+        "clearly_small": 4,
+        "n": 64
+      },
+      {
+        "condition": "random-1:1",
+        "family": "creature",
+        "clearly_small": 0,
+        "n": 32
+      },
+      {
+        "condition": "random-1:1",
+        "family": "object",
+        "clearly_small": 4,
+        "n": 32
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "all",
+        "clearly_small": 10,
+        "n": 64
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "creature",
+        "clearly_small": 3,
+        "n": 32
+      },
+      {
+        "condition": "random-1:-1",
+        "family": "object",
+        "clearly_small": 7,
+        "n": 32
+      }
+    ],
+    "rated": 448,
+    "required": 448
+  }
+}

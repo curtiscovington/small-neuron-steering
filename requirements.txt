@@ -1,0 +1,4 @@
+# Recorded generation environment. GB10 may need NVIDIA-compatible PyTorch wheels.
+torch==2.13.0
+transformers==5.5.4
+accelerate==1.13.0
